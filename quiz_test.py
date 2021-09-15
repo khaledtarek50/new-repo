@@ -10,7 +10,7 @@ random.shuffle(questions)
 num_tries = 0
 max_tries = 3
 current_idx = 0
-
+change = 10
 
 def ask(question):
     return input("{}: ".format(question))
